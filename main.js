@@ -74,6 +74,7 @@ function generateLetter(){
 }
 
 $(function () {
+
 	jsalarm.init();
 	
 });
