@@ -1,30 +1,4 @@
-<style type="text/css">
-
-#jsalarmclock{
-font-family: Tahoma;
-font-weight: bold;
-font-size: 12px;
-}
-
-#jsalarmclock div{
-margin-bottom: 0.8em;
-}
-
-#jsalarmclock div.leftcolumn{
-float: left;
-width: 150px;
-font-size: 13px;
-background-color: lightyellow;
-clear: left;
-}
-
-#jsalarmclock span{
-margin-right: 5px;
-}
-
-</style>
-
-<script type="text/javascript">
+'use strict';
 
 /***********************************************
 
@@ -93,4 +67,15 @@ var jsalarm={
 	}
 }
 
-</script>
+function generateLetter(){
+	var max = 26;
+	var min = 1;
+	return Math.floor(Math.random() * max) + min;
+}
+
+$(function () {
+	jsalarm.init();
+	
+});
+
+

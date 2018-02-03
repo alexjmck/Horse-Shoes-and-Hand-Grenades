@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Horseshoes_and_Hand_Grenades</title>
-  <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+
 </head>
-
 <body>
-  <h1 id="greeting"></h1>
-
-  <script src="main.js"></script>
+	<form action="" method="">
+		<div id="jsalarmclock">
+		<div><div class="leftcolumn">Current Time:</div> <span id="jsalarm_ct" style="letter-spacing: 2px"></span></div>
+		<div><div class="leftcolumn">Set Alarm:</div> <span><select></select> Hour</span> <span><select></select> Minutes</span> <span><select></select> Seconds</span></div>
+		<div><div class="leftcolumn">Set Alarm Action:</div> <input type="text" id="musicloc" size="55" value="alarm.html" /> <span style="font: normal 11px Tahoma">*Location of page to launch</span></div>
+		<input type="submit" value="Set Alarm!" id="submitbutton" /> <input type="reset" value="reset" id="resetbutton" />
+		</div>
+	</form>
 </body>
+<script src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
 </html>
