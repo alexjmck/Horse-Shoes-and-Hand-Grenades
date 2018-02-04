@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/indexmain.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+	      <a class="navbar-brand" href="">QHacks</a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+	      <div class="collapse navbar-collapse" id="navbarCollapse">
+	        <ul class="navbar-nav mr-auto">
+	        </ul>
+	      </div>
+	</nav>
+	<div class="container" style="margin-top:70px;">
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center">
+					<span class="time" id="jsalarm_ct" style="letter-spacing: 2px"></span>
+				</div>	
+			</div>
+		</div>
+		<div id="jsalarmclock" style="margin-top:50px;">
+		<!--<div class="row">
+			<div class="col">
+						<!--<div>
+							<div class="leftcolumn">Current Time:</div> <!--<span id="jsalarm_ct" style="letter-spacing: 2px"></span>
+						</div>-
+				<div class="d-flex justify-content-center" style="margin-top: 20px;">
+					<p class="leftcolumn">Set Alarm:</p> 
+				</div>
+			</div>
+		</div>-->
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center content">
+					<span><select></select> Hours</span> 
+					<span><select></select> Minutes</span> 
+					<span><select></select> Seconds</span>
+				</div>
+			</div>
+		</div>
+						<div style="display:none;"><div class="leftcolumn">Set Alarm Action:</div> <input type="text" id="musicloc" size="55" value="alarm.html" /> <span style="font: normal 11px Tahoma">*Location of page to launch</span></div>
+
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center">
+						<button type="button" class="btn btn-success" value="Set Alarm!" id="submitbutton">Set Alarm</button>
+				</div>
+			</div>
+		</div> 
+		<div class="row">
+			<div class="col">
+				<div class="d-flex justify-content-center">
+					<button type="button" class="btn btn-danger" value="reset" id="resetbutton">Reset</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+		
+					
+
+		</div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"
+  	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  	crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="scripts/indexmain.js"></script>
+</body>
+
+
+</html>

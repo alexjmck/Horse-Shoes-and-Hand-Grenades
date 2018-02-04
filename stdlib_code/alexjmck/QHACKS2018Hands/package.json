@@ -1,0 +1,21 @@
+{
+  "name": "QHACKS2018Hands",
+  "version": "0.0.0",
+  "description": "",
+  "author": "alexjmck <alex@mckinnon.io>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "clarifai": "^2.6.0"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "alexjmck/QHACKS2018Hands",
+    "timeout": 30000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}

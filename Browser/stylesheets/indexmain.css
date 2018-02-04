@@ -1,0 +1,47 @@
+html{
+	 
+	 font-size: 62.5%;
+}
+body{
+	font-family: "Raleway", sans-serif !important;
+	background-color: #78C2AD !important;
+	font-size: 3rem;
+}
+.navbar-brand{
+    font-family: 'Satisfy', cursive;
+}
+nav, .navbar-brand{
+	font-size: 2.2rem !important;
+}
+h1{
+	font-size: 5rem !important;
+}
+p, .content{
+	font-size: 4rem !important;
+}
+.btn{
+	font-size: 3.5rem !important;
+	margin-left: 20px;
+	border: 5px !important;
+	border-radius: 10px !important;
+}
+.time{
+	font-size: 9rem;
+}
+#jsalarmclock{
+	font-weight: bold;
+}
+
+#jsalarmclock div{
+	margin-bottom: 0.8em;
+}
+
+#jsalarmclock div.leftcolumn{
+	float: left;
+	width: 150px;
+	clear: left;
+}
+
+#jsalarmclock span{
+	margin-right: 50px;
+}
